@@ -9,10 +9,15 @@
     display: inline-flex;
     min-height: 500px;
     min-width: 500px;
+    gap: 70px;
 }
 
 .btn_us{
     float: left !important;
     width: 70px;
     height: 25px;
+}
+
+.content_us p{
+    text-align: justify;
 }

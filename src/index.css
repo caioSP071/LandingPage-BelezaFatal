@@ -2,8 +2,8 @@
   font-family: 'Kaisei Tokumin', serif;
   font-weight: 400;
   border: 250px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 350px;
+  padding-right: 350px;
 }
 
 a {
@@ -57,7 +57,7 @@ hr {
   white-space: nowrap;
   padding: 10px;
   display: block;
-  width: 300px;
+  width: 330px;
   height: 25px;
 }
 

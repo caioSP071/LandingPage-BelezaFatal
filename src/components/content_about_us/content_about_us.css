@@ -1,0 +1,18 @@
+.content_us_img{
+
+    display: block;
+    min-width: 500px;
+    min-height: 500px;
+}
+
+.about_us{
+    display: inline-flex;
+    min-height: 500px;
+    min-width: 500px;
+}
+
+.btn_us{
+    float: left !important;
+    width: 70px;
+    height: 25px;
+}

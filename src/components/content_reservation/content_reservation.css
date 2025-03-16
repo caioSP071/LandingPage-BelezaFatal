@@ -1,0 +1,39 @@
+.reservation_content{
+    display: flex;
+    gap: 700px;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    border-radius: 5px;
+    height: 200px;
+    align-items: center;
+}
+
+.btn_agendar {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.0rem;
+    cursor: pointer;
+    width: 100px;
+}
+
+.btn_agendar_grp{
+    background-color: lightgray;
+    color: black;
+    font-size: 18px;
+    border-top: 20px;
+    border-right: 20px;
+    border-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 220px;
+}
+
+.reservation_content_btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+h1{
+    font-size: 30px;
+}

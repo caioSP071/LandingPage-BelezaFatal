@@ -1,0 +1,13 @@
+.feedbacks {
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex; /* Adiciona flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: space-around; /* Distribui os itens uniformemente */
+}
+
+.fd_btn{
+    margin-top: 30px;
+    width: 150px;
+    height: 25px;
+}

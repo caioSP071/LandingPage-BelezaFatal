@@ -1,0 +1,35 @@
+.feedback {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave */
+    width: 30%; /* Define a largura de cada feedback */
+    box-sizing: border-box; /* Garante que padding e border não alterem a largura */
+    min-width: 226px;
+}
+
+.feedback-texto {
+    font-size: 16px;
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */
+    margin-bottom: 15px;
+    color: #333; /* Cor do texto */
+}
+
+.feedback-autor {
+    display: flex;
+    align-items: center;
+}
+
+.feedback-foto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço */
+}
+
+.feedback-nome {
+    font-weight: 600; /* Peso da fonte */
+    color: #555; /* Cor do nome */
+}

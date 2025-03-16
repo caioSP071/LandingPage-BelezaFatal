@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-item {
+    text-align: center; /* Centraliza o conteúdo dentro de cada item */
+}
+
+.image-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    min-width: 370px;
+    height: auto;
+}
+
+.image-item h3 {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,6 @@
+.img_main {
+    display: block; /* Remove espaço extra abaixo da imagem */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 100%; /* Mantém responsividade */
+    height: auto; /* Mantém a proporção da imagem */
+}

@@ -1,0 +1,35 @@
+.footer {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-coluna {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.footer-coluna h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.redes-sociais {
+    display: flex;
+}
+
+.icone-rede-social {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.footer-coluna a {
+    text-decoration: none;
+    margin-bottom: 5px;
+    border:none;
+    width: auto;
+    height: auto;
+}

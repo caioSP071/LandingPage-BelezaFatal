@@ -1,0 +1,11 @@
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-answer{
+    padding: 5px;
+    border-radius: 5px;
+    min-height: 100%;
+    min-width: 50%;
+    color: black;
+}

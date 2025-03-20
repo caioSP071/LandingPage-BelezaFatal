@@ -1,0 +1,60 @@
+:host {
+    cursor: default;
+}
+
+p{
+    font-size: 20px;
+}
+
+header {
+    padding-top: 30px;
+    height: 60px;
+}
+
+.header_home {
+    font-size: 1.0rem;
+    font-family: 'Kaisei Tokumin', serif;
+    display: flex; /* Deixa os elementos lado a lado */
+    justify-content: space-between; /* Espaço entre os itens */
+    align-items: end; /*Alinha verticalmente */
+    min-width: 705px;
+}
+
+.brand-logo{
+    cursor: pointer;
+    width: 250px;
+    height: 79px;
+}
+
+.btn_agendar {
+    background-color: black;
+    color: white;
+}
+
+nav{
+    min-width: 455px;
+}
+
+a{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border-top: 20px;
+    border-right: 20px;
+    border-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    padding: 16px;
+    width: 400px;
+    height: 20px;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+

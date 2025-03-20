@@ -1,8 +1,15 @@
 import './content_about_us.css'
 import imgUs from "../../assets/us_Img.png";
+import {useNavigate} from "react-router-dom";
+
 
 
 function Content_about_us() {
+    const navigate = useNavigate();
+
+    const goToAbout = () => {
+        navigate("/aboutus");
+    }
     return (
         <>
             <div className="about_us">
@@ -19,7 +26,7 @@ function Content_about_us() {
                         dedicação, carinho e técnica, buscamos sempre superar as expectativas e fazer com que você se
                         sinta ainda mais
                         incrível do que já é. Porque sua beleza vem primeiro!</p>
-                    <a className="bf_btn btn_us">Saiba +</a>
+                    <a onClick={goToAbout} className="bf_btn btn_us">Saiba +</a>
                 </div>
                 <img className="content_us_img" src={imgUs} alt="Quem somos?"/>
             </div>

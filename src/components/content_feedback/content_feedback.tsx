@@ -44,7 +44,7 @@ const Feedbacks: React.FC = () => {
                     />
                 ))}
             </div>
-            <a className="bf_btn fd_btn">Deixe sua opinião</a>
+
         </>
     );
 };

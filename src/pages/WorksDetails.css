@@ -1,0 +1,70 @@
+:host {
+    cursor: default;
+}
+
+p{
+    font-size: 20px;
+}
+
+.btn_agendar {
+    background-color: black;
+    color: white;
+}
+
+nav{
+    min-width: 455px;
+}
+
+a{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border-top: 20px;
+    border-right: 20px;
+    border-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    padding: 16px;
+    width: 400px;
+    height: 20px;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn_agendar {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.0rem;
+    cursor: pointer;
+    width: 100px;
+}
+
+.btn_agendar_grp{
+    background-color: lightgray;
+    color: black;
+    font-size: 18px;
+    border-top: 20px;
+    border-right: 20px;
+    border-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 220px;
+}
+
+.reservation_content_btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+

@@ -18,6 +18,7 @@ header {
   justify-content: space-between; /* Espaço entre os itens */
   align-items: end; /*Alinha verticalmente */
   min-width: 705px;
+  gap: 710px;
 }
 
 .brand-logo{
@@ -32,7 +33,7 @@ header {
 }
 
 nav{
-  min-width: 550px;
+  min-width: 455px;
 }
 
 a{

@@ -2,8 +2,13 @@ import './content_works.css'
 import imgFormanda from "../../assets/formanda_img.png";
 import imgNoiva from "../../assets/noiva_img.png";
 import imgCarnaval from "../../assets/carnaval_img.png";
+import {useNavigate} from "react-router-dom";
 
 function Content_works() {
+    const navigate = useNavigate();
+    const goToWorks = () => {
+        navigate("/Works");
+    }
     return (
         <>
             <h1>Beleza em Ação</h1>
@@ -24,7 +29,7 @@ function Content_works() {
                     <p>Se é para carnavalizar que seja com muito brilho, cor e ousadia!</p>
                 </div>
             </div>
-            <a className="bf_btn">Explore mais de nossas tranformações</a>
+            <a className="bf_btn" onClick={goToWorks}>Explore mais de nossas tranformações</a>
         </>
     )
 }

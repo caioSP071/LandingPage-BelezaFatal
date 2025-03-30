@@ -4,6 +4,7 @@
     display: flex; /* Adiciona flexbox */
     flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
     justify-content: space-around; /* Distribui os itens uniformemente */
+    min-width: 665px;
 }
 
 .fd_btn{

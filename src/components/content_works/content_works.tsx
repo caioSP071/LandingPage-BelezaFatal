@@ -7,6 +7,7 @@ import {useNavigate} from "react-router-dom";
 function Content_works() {
     const navigate = useNavigate();
     const goToWorks = () => {
+        window.scrollTo(0, 0);
         navigate("/Works");
     }
     return (

@@ -58,13 +58,13 @@ a:hover{
     width: 220px;
 }
 
-.reservation_content_btn{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
+.texto_works{
+    min-width: 1028px;
 }
 
+.texto_works {
+    min-width: 585px;
+}
 
 
 

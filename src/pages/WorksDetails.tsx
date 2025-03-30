@@ -14,6 +14,14 @@ import formanda3 from "../assets/formanda3.png"
 import formanda4 from "../assets/formanda4.png"
 import formanda5 from "../assets/formanda5.png"
 import formanda6 from "../assets/formanda6.png"
+import carnaval1 from "../assets/Carnaval (1).png"
+import carnaval2 from "../assets/Carnaval (2).png"
+import carnaval3 from "../assets/Carnaval (3).png"
+import carnaval4 from "../assets/Carnaval (4).png"
+import carnaval5 from "../assets/Carnaval (5).png"
+import carnaval6 from "../assets/Carnaval (6).png"
+import Content_reservation from "../components/content_reservation/content_reservation.tsx";
+import Footer_home from "../components/footer_home/footer_home.tsx";
 
 
 const imagesSet1 = [
@@ -35,9 +43,12 @@ const imagesSet2 = [
 ];
 
 const imagesSet3 = [
-    "https://via.placeholder.com/600x300/123456/FFF?text=Carrossel+3-Imagem+1",
-    "https://via.placeholder.com/600x300/654321/FFF?text=Carrossel+3-Imagem+2",
-    "https://via.placeholder.com/600x300/ABCDEF/FFF?text=Carrossel+3-Imagem+3",
+    carnaval1,
+    carnaval2,
+    carnaval3,
+    carnaval4,
+    carnaval5,
+    carnaval6,
 ];
 
 const WorksDetails: React.FC = () => {
@@ -45,8 +56,8 @@ const WorksDetails: React.FC = () => {
         <>
             <section><Header_home/></section>
             <hr/>
-            <h1>Explore mais de nossas trsnformações</h1>
-            <p>Aqui você encontrará uma seleção de makes que já fizemos, mostrando toda a versatilidade e qualidade do nosso trabalho. Desde produções mais suaves até visuais marcantes, apresentamos os diferentes tipos de maquiagem que oferecemos. Para mais informações, confira também nossa seção de dúvidas frequentes!</p>
+            <h1 className="titulo_works">Explore mais de nossas trsnformações</h1>
+            <p className="texto_works">Aqui você encontrará uma seleção de makes que já fizemos, mostrando toda a versatilidade e qualidade do nosso trabalho. Desde produções mais suaves até visuais marcantes, apresentamos os diferentes tipos de maquiagem que oferecemos. Para mais informações, confira também nossa seção de dúvidas frequentes!</p>
             <div style={{ textAlign: "center" }}>
                 <h1>Noivas</h1>
                 <ImageCarousel images={imagesSet1} />
@@ -58,10 +69,8 @@ const WorksDetails: React.FC = () => {
                 <ImageCarousel images={imagesSet3} />
                 <hr/>
                 <hr/>
-                <div className="reservation_content_btn">
-                    <a className="btn_agendar bf_btn">Agendar</a>
-                    <a className="btn_agendar_grp bf_btn">Atendimento em grupo</a>
-                </div>
+                <section><Content_reservation/></section>
+                <section><Footer_home/></section>
             </div>
         </>
     )

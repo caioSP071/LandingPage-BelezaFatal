@@ -10,9 +10,11 @@ function Header_home (){
     };
 
     const goToWorks = () => {
+        window.scrollTo(0, 0);
         navigate("/works");
     }
     const goToAbout = () => {
+        window.scrollTo(0, 0);
         navigate("/aboutus");
     }
     return (
@@ -22,7 +24,7 @@ function Header_home (){
                 <a onClick={goToHome} >Início</a>
                 <a onClick={goToWorks}>Portfólio</a>
                 <a onClick={goToAbout}>Quem somos</a>
-                <a className="btn_agendar" >Agendar</a>
+                <a className="btn_agendar" target="_blank" href="https://wa.me/5571993742126?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!" >Agendar</a>
             </nav>
         </header>
     )

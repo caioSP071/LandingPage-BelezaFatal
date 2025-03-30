@@ -6,6 +6,7 @@
     border-radius: 5px;
     height: 200px;
     align-items: center;
+    min-width: 1300px;
 }
 
 .btn_agendar {
@@ -29,6 +30,12 @@
     width: 220px;
 }
 
+.reservation_content_btn {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
 h1{
     font-size: 30px;
 }

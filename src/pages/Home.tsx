@@ -22,10 +22,15 @@ function Home() {
             <header className="header_home">
                 <img className="brand-logo" onClick={goToHome} src={bfLogo} alt="logo" aria-hidden="true"/>
                 <nav>
-                    <a href="#main">Início</a>
+                    <a onClick={goToHome}>Início</a>
                     <a href="#works">Portfólio</a>
                     <a href="#about_us">Quem somos</a>
-                    <a className="btn_agendar">Agendar</a>
+                    <a className="btn_agendar"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://wa.me/5571993742126?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!">
+                        Agendar
+                    </a>
                 </nav>
             </header>
             <hr/>
